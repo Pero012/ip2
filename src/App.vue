@@ -1,9 +1,10 @@
 <template>
   <v-app id="inspire">
-    <v-app-bar extended>
+    <v-app-bar>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-app-bar-title>Application</v-app-bar-title>
+      <v-app-bar-title>
+        Umjetnička djela
+      </v-app-bar-title>
 
       <v-spacer></v-spacer>
 
