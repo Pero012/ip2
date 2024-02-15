@@ -171,7 +171,7 @@ export default {
 
     searchArtworks() {
       this.currentPage = 1;
-      this.fetchArtworks();
+      this.fetchArtworks(); //
     },
 
     submitNewArtwork() {
