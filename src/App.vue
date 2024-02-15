@@ -6,10 +6,9 @@
         <span class="vue-arts-name">VUEArts</span>
       </div>
 
-      <v-spacer></v-spacer> <!-- Spacer to push navigation links to the right -->
-
+      <v-spacer></v-spacer> 
       <div id="nav" class="navigation-links">
-        <router-link to="/" class="nav-link">ART</router-link> <!-- Updated text -->
+        <router-link to="/" class="nav-link">ART</router-link> 
         <router-link to="/about" class="nav-link">ABOUT</router-link>
       </div>
     </v-app-bar>
@@ -41,7 +40,7 @@ export default {
 }
 
 .vue-logo {
-  height: 40px; /* Adjust the size as needed */
+  height: 40px; 
 }
 
 .vue-arts-name {
@@ -59,25 +58,25 @@ export default {
 
 .nav-link {
   color: black;
-  margin-left: 30px; /* Increased spacing between links */
+  margin-left: 30px; 
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.4em; /* Larger font size for the links */
-  padding-bottom: 5px; /* Padding for the underline */
-  border-bottom: 2px solid transparent; /* Transparent border for a consistent line height */
+  font-size: 1.4em; 
+  padding-bottom: 5px; 
+  border-bottom: 2px solid transparent; 
 }
 
 .nav-link:hover {
   color: #1ABC9C;
-  border-bottom: 2px solid black; /* Underline on hover */
+  border-bottom: 2px solid black; 
 }
 
-/* Responsive styling */
+
 @media (max-width: 600px) {
   .nav-link {
-    font-size: 1.1em; /* Adjust font size on smaller screens */
-    margin-left: 15px; /* Adjust spacing on smaller screens */
-    border-bottom: 1px solid black; /* Thinner underline for mobile */
+    font-size: 1.1em; 
+    margin-left: 15px; 
+    border-bottom: 1px solid black; 
   }
 }
 </style>

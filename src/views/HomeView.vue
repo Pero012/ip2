@@ -52,7 +52,7 @@
       </v-col>
     </v-row>
     
-  <!-- Dialog for Artwork Image -->
+  
   <v-dialog v-model="imageDialog" max-width="600px">
     <v-img :src="selectedImageUrl" contain></v-img>
   </v-dialog>
@@ -69,7 +69,7 @@
       </v-col>
     </v-row>
 
-    <!-- Add Artwork Dialog -->
+    
     <v-dialog v-model="showAddArtworkDialog" max-width="600px">
       <v-card>
         <v-card-title>Add New Artwork</v-card-title>
@@ -96,7 +96,7 @@
       </v-card>
     </v-dialog>
 
-    <!-- Snackbar for Success Message -->
+    
     <v-snackbar
       v-model="showSnackbar"
       :timeout="snackbarTimeout"
@@ -135,7 +135,7 @@ export default {
       snackbarTimeout: 3000,
       imageDialog: false,
       selectedImageUrl: '',
-      // Assuming iiifBaseURL is fetched or defined statically
+      
       iiifBaseURL: 'https://www.artic.edu/iiif/2',
     }
   },
@@ -176,8 +176,8 @@ export default {
 
     submitNewArtwork() {
       console.log("New Artwork Data:", this.newArtwork);
-      // Add your submission logic here (e.g., API call)
-      this.showSnackbar = true; // Show success message
+      
+      this.showSnackbar = true; 
       this.resetAddArtworkForm();
       this.showAddArtworkDialog = false;
     },

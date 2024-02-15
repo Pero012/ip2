@@ -27,7 +27,7 @@ export default {
   name: 'AboutPage',
   methods: {
     goBack() {
-      this.$router.go(-1); // Navigate back to the previous page
+      this.$router.go(-1); 
     }
   }
 };
@@ -37,7 +37,7 @@ export default {
 .about-page {
   padding: 40px;
   min-height: 100vh;
-  background-color: #f5f5f5; /* Light background for the page */
+  background-color: #f5f5f5; 
 }
 
 .about-content {
