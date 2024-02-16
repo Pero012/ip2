@@ -39,7 +39,7 @@
         v-for="artwork in artworks"
         :key="artwork.id"
         cols="12"
-        md="3"
+        md="4"
       >
         <v-card class="mx-auto my-2" outlined elevation="2">
           <v-card-title>{{ artwork.title }}</v-card-title>
